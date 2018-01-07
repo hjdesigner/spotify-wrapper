@@ -10,6 +10,9 @@ This library relies on [Fetch API](https://fetch.spec.whatwg.org/). And this API
 --- | --- | --- | --- | --- |
 39+ ✔ | 42+ ✔ | 29+ ✔ | 10.1+ ✔ | Nope ✘ |
 
+
+[![Build Status](https://travis-ci.org/hjdesigner/spotify-wrapper.svg?branch=master)](https://travis-ci.org/hjdesigner/spotify-wrapper)
+
 ## Dependencies
 
 This library depends on [fetch](https://fetch.spec.whatwg.org/) to make requests to the Spotify Web API. For environments that don't support fetch, you'll need to provide a [polyfill](https://github.com/github/fetch) to browser or [polyfill](https://github.com/bitinn/node-fetch) to Node.
@@ -226,11 +229,6 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-| ![Willian Justen](https://avatars2.githubusercontent.com/u/3991845?v=3&s=150)|
-|:---------------------:|
-|  [Willian Justen](https://github.com/willianjusten/)   |
-
-See also the list of [contributors](https://github.com/willianjusten/spotify-wrapper/contributors) who participated in this project.
 
 ## License
 
