@@ -2,6 +2,10 @@
 
 A wrapper to work with the [Spotify Web API](https://developer.spotify.com/web-api/).
 
+[![Build Status](https://travis-ci.org/hjdesigner/spotify-wrapper.svg?branch=master)](https://travis-ci.org/hjdesigner/spotify-wrapper)
+
+[![Coverage Status](https://coveralls.io/repos/github/hjdesigner/spotify-wrapper/badge.svg?branch=master)](https://coveralls.io/github/hjdesigner/spotify-wrapper?branch=master)
+
 ## Browser Support
 
 This library relies on [Fetch API](https://fetch.spec.whatwg.org/). And this API is supported in the following browsers.
@@ -10,8 +14,6 @@ This library relies on [Fetch API](https://fetch.spec.whatwg.org/). And this API
 --- | --- | --- | --- | --- |
 39+ ✔ | 42+ ✔ | 29+ ✔ | 10.1+ ✔ | Nope ✘ |
 
-
-[![Build Status](https://travis-ci.org/hjdesigner/spotify-wrapper.svg?branch=master)](https://travis-ci.org/hjdesigner/spotify-wrapper)
 
 ## Dependencies
 
