@@ -12,7 +12,10 @@
 
   <script src="../dist/spotify-wrapper.umd.min.js"></script>
   <script>
-    const albums = spotifyWrapper.searchAlbums('Incubus');
+    const spotify = new spotifyWrapper({
+      token: 'BQAK9KQmtHPMI51g3dM2xhx6HW9cRfKuZ-5zmV_A1oz9fICdBFcnXeMHqkC1fJe-7TAng24Mk1WHTgvQXMw0zJ7U0F8pVeN_H5u5oCSi8k_UnUpEuT1uLa4_zsAw-FMW9Wh1n2vFD-HLhC1BsQ'
+    });
+    const albums = spotify.search.albums('foo fighters');
     const albumsEl = document.getElementById('albums')
 
     albums
